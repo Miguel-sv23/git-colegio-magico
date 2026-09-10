@@ -5,8 +5,8 @@ package com.colegiomagico.reto6;
  */
 public class SombreroClasificador {
 
-    public static String clasificar(String casa) {
-        switch(casa){
+    public static String clasificar(String nombre) {
+        switch(nombre){
             case "Gryffindor":
                 return "valentia";
 
