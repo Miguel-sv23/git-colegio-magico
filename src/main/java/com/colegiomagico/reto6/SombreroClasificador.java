@@ -5,17 +5,17 @@ package com.colegiomagico.reto6;
  */
 public class SombreroClasificador {
 
-    public static String clasificar(String nombre) {
-        switch(nombre){
-            case "Gryffindor":
-                return "valentia";
+    public static String clasificar(String casa) {
 
-            case"Ravenclaw":
+        switch (casa) {
+            case "Gryffindor":
+                return "Valentia";
+
+            case "Ravenclaw":
                 return "Inteligencia";
-            
+
             default:
                 return "Desconocido";
-
         }
     }
 
